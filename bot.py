@@ -59,6 +59,7 @@ def getTut():
                     print("Sry it seems that it didnt work....")
                     exit(1)
             except Exception:
+                print("waiting...")
                 sleep(1)
                 continue
     except KeyboardInterrupt:
