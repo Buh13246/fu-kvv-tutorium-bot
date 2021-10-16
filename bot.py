@@ -45,7 +45,7 @@ def getTut():
         while(True):
             browser.get(site_url)
             try:
-                el = browser.find_element_by_id('studentViewForm:studentViewSectionsTable:'+str(wanted_tut_num)+':_idJsp47')
+                el = browser.find_element_by_id('studentViewForm:studentViewSectionsTable:'+str(wanted_tut_num)+':_idJsp42')
                 el.click()
                 sleep(0.5)
                 print("Link was avaible. Checking if it worked...")
